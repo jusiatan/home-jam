@@ -190,6 +190,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Obszar_kompozycji_1_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 93
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ff529452a6dcd47922aa714991d953
+      internalID: 1725876356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -203,6 +224,7 @@ TextureImporter:
     nameFileIdTable:
       Obszar_kompozycji_1_0: 1318871151
       Obszar_kompozycji_1_1: -290087104
+      Obszar_kompozycji_1_2: -2042008043
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
