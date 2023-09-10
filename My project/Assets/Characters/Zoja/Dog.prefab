@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6685672419310810285}
   - component: {fileID: 2786218372223867750}
   - component: {fileID: 6452411109866305753}
+  - component: {fileID: 1514684584397948703}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Untagged
@@ -129,6 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   jumpSpeed: 8
+  _isMoving: 1
 --- !u!114 &2786218372223867750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,3 +270,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.36, y: 0.26}
   m_EdgeRadius: 0
+--- !u!95 &1514684584397948703
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664092018272409660}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dcc68806631a37a42835a65d92d8acfc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -10,13 +10,29 @@ public class PlayerController : MonoBehaviour
     public float jumpSpeed = 8f;
     Vector2 moveInput;
 
-    public bool IsMoving { get; private set; }
+    private bool _isMoving = false;
+
+    public bool IsMoving
+    {
+        get
+        {
+            return _isMoving;
+        }
+        private set
+        {
+            _isMoving = value;
+            animator.SetBool("IsMoving", value); 
+        }
+    }
 
     Rigidbody2D rb;
+    Animator animator;
+
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Start is called before the first frame update
